@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter_application_1/model/user_model.dart';
 import 'package:http/http.dart' as http;
-import '../models/user_model.dart';
+import 'package:flutter_application_1/model/user_model.dart';
 
 class ApiService {
   static Future<List<UserModel>> fetchUsers() async {

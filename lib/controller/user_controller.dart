@@ -1,7 +1,7 @@
 import 'package:flutter_application_1/model/user_model.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../models/user_model.dart';
+import '../model/user_model.dart';
 import '../services/api_service.dart';
 
 class UserController extends GetxController {
